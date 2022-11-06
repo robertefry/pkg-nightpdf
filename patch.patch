@@ -1,0 +1,15 @@
+--- usr/share/applications/nightpdf.desktop
++++ usr/share/applications/nightpdf.desktop
+@@ -1,9 +1,9 @@
+ [Desktop Entry]
+-Name=NightPdf
+-Exec=/opt/NightPDF/nightpdf %U
++Name=NightPDF
++Exec=/opt/NightPDF/nightpdf --no-sandbox %U
+ Terminal=false
+ Type=Application
+ Icon=nightpdf
+ StartupWMClass=NightPDF
+-Comment=Dark Mode for PDFs
++Comment=Dark Mode PDF Reader
+ Categories=Utilty;
